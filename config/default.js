@@ -12,12 +12,12 @@ module.exports = {
   debug: true, //useful for seeing some logs in the browser console
   permalinkStructure:'/:year/:month/:day/:title/', //you can also use /:title/ or '/:year/:month/:title/'
   postPerPage: 3, // number of posts per page
-  siteUrl: 'http://morpheus-reactblog-d5a6.coding.io', // the url of your website
+  siteUrl: 'http://morpheus-reactblog-d5a6.coding.io:8080', // the url of your website
   useSSL: false, // if true it redirects all incoming requests to the https url
   siteTitle: 'Morpheus',
   theme: 'blablabla', // currently used theme
   siteDescription: '- say hi to the next generation web publishing platform -',
-  port: 80,
+  port: 8080,
   ip: '0.0.0.0',
   authors: {
     'admin@hainuo.info': {
