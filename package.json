@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/vesparny/morpheus",
   "scripts": {
+    "deploy": "NODE_ENV=production webpack -p --config webpack.production.config.js",
     "start": "node server.js",
     "test": "./node_modules/.bin/gulp test"
   },
